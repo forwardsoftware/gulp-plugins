@@ -4,8 +4,9 @@ This repository contains a collection of custom plugins for [gulp](https://gulpj
 
 ## Plugins
 
-| Plugin                                    | Description                                                               |
-| ----------------------------------------- | ------------------------------------------------------------------------- |
+| Plugin                           | Description                                          |
+| -------------------------------- | ---------------------------------------------------- |
+| [gulp-sharp](plugins/gulp-sharp) | Custom plugin to convert images using sharp library. |
 
 ---
 
