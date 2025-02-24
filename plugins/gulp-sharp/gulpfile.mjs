@@ -16,22 +16,12 @@ const babelConfig = {
     [
       "@babel/preset-env",
       {
-        corejs: 3,
-        useBuiltIns: "usage",
-        modules: false,
         targets: {
-          browsers: [
-            "last 2 Chrome versions",
-            "last 2 Safari versions",
-            "last 2 iOS versions",
-            "last 2 Firefox versions",
-            "last 2 Edge versions",
-          ],
+          node: "current",
         },
       },
     ],
   ],
-  ignore: [/node_modules\/(?!(highlight\.js|marked)\/).*/],
 };
 
 const debugRollupPlugins = [resolve(), commonjs(), babel(babelConfig)];
