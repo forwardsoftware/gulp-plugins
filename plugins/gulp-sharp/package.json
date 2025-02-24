@@ -1,6 +1,6 @@
 {
   "name": "@forward-software/gulp-sharp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Custom plugin for gulp toolkit to convert images using sharp library",
   "author": "ForWarD Software (https://forwardsoftware.solutions/)",
   "license": "MIT",
