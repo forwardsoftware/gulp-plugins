@@ -1,0 +1,48 @@
+{
+  "name": "@forward-software/gulp-sharp",
+  "version": "0.0.1",
+  "description": "Custom plugin for gulp toolkit to convert images using sharp library",
+  "author": "ForWarD Software (https://forwardsoftware.solutions/)",
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "gulp-tasks",
+    "sharp"
+  ],
+  "homepage": "https://github.com/forwardsoftware/gulp-plugins/tree/main/plugins/gulp-sharp#readme",
+  "bugs": "https://github.com/forwardsoftware/gulp-plugins/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forwardsoftware/gulp-plugins.git",
+    "directory": "plugins/gulp-sharp"
+  },
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "gulp clean",
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "catalog:",
+    "@babel/preset-env": "catalog:",
+    "@rollup/plugin-babel": "catalog:",
+    "@rollup/plugin-commonjs": "catalog:",
+    "@rollup/plugin-node-resolve": "catalog:",
+    "@rollup/plugin-strip": "catalog:",
+    "@rollup/plugin-terser": "catalog:",
+    "gulp": "catalog:",
+    "rimraf": "catalog:",
+    "rollup": "catalog:",
+    "yoctocolors": "catalog:"
+  },
+  "peerDependencies": {
+    "gulp": ">=5",
+    "sharp": "^0.33"
+  }
+}
