@@ -47,20 +47,17 @@ function transformStream(transformer) {
 export function gulpPlugin(name, onFile) {
   return transformStream((file) => {
     if (file.isNull() || file.isDirectory()) {
-      return file;
+      return Promise.resolve(file);
     }
 
     if (file.isStream()) {
-      throw new PluginError(name, "Streaming not supported");
+      return Promise.reject(new PluginError(name, "Streaming not supported"));
     }
 
     try {
       return onFile(file);
     } catch (error) {
-      throw new PluginError(name, error, {
-        fileName: file.path,
-        showStack: true,
-      });
+      return Promise.reject(new PluginError(name, error, { fileName: file.path, showStack: true }));
     }
   });
 }
