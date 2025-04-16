@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/forwardsoftware/gulp-plugins/compare/gulp-sharp-v1.0.1...gulp-sharp-v1.0.2) (2025-04-16)
+
+
+### Bug Fixes
+
+* **gulp-sharp:** update `sharp` dependency constraint ([#16](https://github.com/forwardsoftware/gulp-plugins/issues/16)) ([5614d84](https://github.com/forwardsoftware/gulp-plugins/commit/5614d8452d2b5dfc860bf34a6f3d806a9b03a78d))
+
 ## [1.0.1](https://github.com/forwardsoftware/gulp-plugins/compare/gulp-sharp-v1.0.0...gulp-sharp-v1.0.1) (2025-02-25)
 
 
