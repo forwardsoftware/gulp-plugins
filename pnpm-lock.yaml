@@ -7,10 +7,10 @@ settings:
 catalogs:
   default:
     '@babel/core':
-      specifier: ^7.26.10
+      specifier: ^7.26
       version: 7.26.10
     '@babel/preset-env':
-      specifier: ^7.26.9
+      specifier: ^7.26
       version: 7.26.9
     '@rollup/plugin-babel':
       specifier: ^6.0.4
