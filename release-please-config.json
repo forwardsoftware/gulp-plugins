@@ -4,6 +4,7 @@
   "separate-pull-requests": true,
   "always-update": true,
   "packages": {
+    "plugins/gulp-browser-sync": {},
     "plugins/gulp-sharp": {}
   }
 }
