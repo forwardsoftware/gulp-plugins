@@ -10,11 +10,16 @@ updates:
     directory: "/"
     schedule:
       interval: monthly
-    reviewers:
-      - "panz3r"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: monthly
 
   - package-ecosystem: "npm"
-    directory: "/"
+    directories:
+      - "/"
+      - "/plugins/*"
     schedule:
       interval: weekly
       day: tuesday
@@ -22,5 +27,3 @@ updates:
       babel:
         patterns:
           - "@babel/*"
-    reviewers:
-      - "panz3r"
