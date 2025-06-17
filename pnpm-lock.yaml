@@ -7,7 +7,7 @@ settings:
 catalogs:
   default:
     '@babel/core':
-      specifier: ^7.26
+      specifier: ^7.27
       version: 7.27.1
     '@babel/preset-env':
       specifier: ^7.26
