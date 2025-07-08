@@ -2,8 +2,8 @@ packages:
   - plugins/*
 
 catalog:
-  "@babel/core": ^7.27
-  "@babel/preset-env": ^7.26
+  "@babel/core": ^7.28
+  "@babel/preset-env": ^7.28
   "@rollup/plugin-babel": ^6.0.4
   "@rollup/plugin-commonjs": ^28.0.6
   "@rollup/plugin-node-resolve": ^16.0.1
