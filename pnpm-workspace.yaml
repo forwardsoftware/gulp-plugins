@@ -5,7 +5,7 @@ catalog:
   "@babel/core": ^7.28
   "@babel/preset-env": ^7.28
   "@rollup/plugin-babel": ^6.1.0
-  "@rollup/plugin-commonjs": ^28.0.6
+  "@rollup/plugin-commonjs": ^28.0.8
   "@rollup/plugin-node-resolve": ^16.0.3
   "@rollup/plugin-strip": ^3.0.4
   "@rollup/plugin-terser": ^0.4.4
