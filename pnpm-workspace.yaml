@@ -10,6 +10,6 @@ catalog:
   "@rollup/plugin-strip": ^3.0.4
   "@rollup/plugin-terser": ^0.4.4
   gulp: ^5.0.0
-  rimraf: ^6.1.0
+  rimraf: ^6.1.2
   rollup: ^4.53.2
   yoctocolors: ^2.1.2
