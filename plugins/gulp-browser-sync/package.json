@@ -1,6 +1,6 @@
 {
   "name": "@forward-software/gulp-browser-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom plugin for gulp toolkit to setup a browser that can be auto-refreshed when files change",
   "author": "ForWarD Software (https://forwardsoftware.solutions/)",
   "license": "MIT",
