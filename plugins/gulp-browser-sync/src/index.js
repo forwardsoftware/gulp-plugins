@@ -10,7 +10,9 @@ export function gulpBrowsersync(initOptions) {
   function browserReload(done) {
     server.reload();
 
-    done();
+    if (typeof done === 'function') {
+      done();
+    }
   }
 
   return {
