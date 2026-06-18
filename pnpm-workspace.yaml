@@ -1,6 +1,9 @@
 packages:
   - plugins/*
 
+allowBuilds:
+  sharp: false
+
 catalog:
   "@babel/core": ^7.29
   "@babel/preset-env": ^7.29
