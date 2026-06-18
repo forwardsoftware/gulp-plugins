@@ -16,7 +16,6 @@ const babelConfig = {
     [
       "@babel/preset-env",
       {
-        bugfixes: true,
         targets: {
           node: "current",
         },
