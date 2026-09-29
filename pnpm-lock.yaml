@@ -36,9 +36,6 @@ catalogs:
     rollup:
       specifier: ^4.63.5
       version: 4.63.5
-    yoctocolors:
-      specifier: ^2.2.0
-      version: 2.2.0
 
 importers:
 
@@ -118,7 +115,7 @@ importers:
         specifier: 'catalog:'
         version: 4.63.5
       yoctocolors:
-        specifier: 'catalog:'
+        specifier: ^2.2.0
         version: 2.2.0
 
 packages:
