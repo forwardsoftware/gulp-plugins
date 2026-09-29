@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/forwardsoftware/gulp-plugins/compare/gulp-sharp-v1.0.2...gulp-sharp-v1.0.3) (2026-09-29)
+
+
+### Bug Fixes
+
+* **gulp-sharp:** load yoctocolors as a runtime dependency instead of bundling it ([#132](https://github.com/forwardsoftware/gulp-plugins/issues/132)) ([adf3110](https://github.com/forwardsoftware/gulp-plugins/commit/adf3110ed7247d42c8fdc5ecb8d7759965840098))
+
 ## [1.0.2](https://github.com/forwardsoftware/gulp-plugins/compare/gulp-sharp-v1.0.1...gulp-sharp-v1.0.2) (2025-04-16)
 
 
