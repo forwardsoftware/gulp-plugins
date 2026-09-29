@@ -35,7 +35,7 @@ async function compile(variant) {
   const builder = await rollup({
     input: `./src/index.js`,
     plugins: rollupPlugins,
-    external: ["sharp"],
+    external: ["sharp", "yoctocolors"],
   });
 
   await builder.write({

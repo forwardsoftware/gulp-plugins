@@ -83,6 +83,9 @@ importers:
       sharp:
         specifier: '>=0.33'
         version: 0.35.1
+      yoctocolors:
+        specifier: ^2.2.0
+        version: 2.2.0
     devDependencies:
       '@babel/core':
         specifier: 'catalog:'
@@ -114,9 +117,6 @@ importers:
       rollup:
         specifier: 'catalog:'
         version: 4.63.5
-      yoctocolors:
-        specifier: ^2.2.0
-        version: 2.2.0
 
 packages:
 

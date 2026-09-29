@@ -38,7 +38,9 @@
     "@rollup/plugin-terser": "catalog:",
     "gulp": "catalog:",
     "rimraf": "catalog:",
-    "rollup": "catalog:",
+    "rollup": "catalog:"
+  },
+  "dependencies": {
     "yoctocolors": "^2.2.0"
   },
   "peerDependencies": {
