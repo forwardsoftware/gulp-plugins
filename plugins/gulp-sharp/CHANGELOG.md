@@ -1,5 +1,7 @@
 # Changelog
 
+> This file is no longer updated. Release notes for newer versions are published on the [GitHub Releases](https://github.com/forwardsoftware/gulp-plugins/releases?q=gulp-sharp&expanded=true) page.
+
 ## [1.0.3](https://github.com/forwardsoftware/gulp-plugins/compare/gulp-sharp-v1.0.2...gulp-sharp-v1.0.3) (2026-09-29)
 
 

@@ -40,6 +40,10 @@ async function watchFiles() {
 export const watch = gulp.series(dist, gulp.parallel(browserServe, watchFiles));
 ```
 
+## Changelog
+
+Release notes for every version are published on the [GitHub Releases](https://github.com/forwardsoftware/gulp-plugins/releases?q=gulp-browser-sync&expanded=true) page.
+
 ## License
 
 MIT

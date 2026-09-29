@@ -19,6 +19,10 @@ Each plugin includes detailed documentation and usage examples in its respective
 
 We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements, and how to build and test your changes.
 
+## Changelog
+
+Release notes for every plugin version are published on the [GitHub Releases](https://github.com/forwardsoftware/gulp-plugins/releases) page.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.

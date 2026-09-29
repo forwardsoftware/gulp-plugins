@@ -1,5 +1,7 @@
 # Changelog
 
+> This file is no longer updated. Release notes for newer versions are published on the [GitHub Releases](https://github.com/forwardsoftware/gulp-plugins/releases?q=gulp-browser-sync&expanded=true) page.
+
 ## [1.0.1](https://github.com/forwardsoftware/gulp-plugins/compare/gulp-browser-sync-v1.0.0...gulp-browser-sync-v1.0.1) (2025-12-19)
 
 

@@ -108,6 +108,10 @@ export default () => (
 - All options available to `sharp` [`webp` method](https://sharp.pixelplumbing.com/api-output#webp).
 
 
+## Changelog
+
+Release notes for every version are published on the [GitHub Releases](https://github.com/forwardsoftware/gulp-plugins/releases?q=gulp-sharp&expanded=true) page.
+
 ## License
 
 MIT
