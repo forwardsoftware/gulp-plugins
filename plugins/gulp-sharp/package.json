@@ -39,6 +39,7 @@
     "gulp": "catalog:",
     "rimraf": "catalog:",
     "rollup": "catalog:",
+    "sharp": "^0.35.5",
     "yoctocolors": "^2.2.0"
   },
   "peerDependencies": {
