@@ -39,7 +39,7 @@
     "gulp": "catalog:",
     "rimraf": "catalog:",
     "rollup": "catalog:",
-    "yoctocolors": "catalog:"
+    "yoctocolors": "^2.2.0"
   },
   "peerDependencies": {
     "gulp": ">=5",
