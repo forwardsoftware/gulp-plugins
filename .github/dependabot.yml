@@ -16,10 +16,11 @@ updates:
     schedule:
       interval: monthly
 
+  # pnpm workspace: Dependabot resolves `plugins/*` packages and the root `catalog:`
+  # from the root `pnpm-workspace.yaml`, so only the root directory must be listed.
+  # Listing workspace packages too creates duplicate PRs that conflict on the shared lockfile.
   - package-ecosystem: "npm"
-    directories:
-      - "/"
-      - "/plugins/*"
+    directory: "/"
     schedule:
       interval: weekly
       day: tuesday
