@@ -5,7 +5,7 @@ allowBuilds:
   sharp: false
 
 catalog:
-  "@babel/core": ^8.0.7
+  "@babel/core": ^8.0.9
   "@babel/preset-env": ^8.0.7
   "@rollup/plugin-babel": ^7.1.0
   "@rollup/plugin-commonjs": ^29.0.3
